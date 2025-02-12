@@ -183,7 +183,7 @@ async function loadUsers() {
     }
   });
   _0x4649bb();
-  await fetch("https://milat2.com/api/users.php").then(_0xfc78b2 => _0xfc78b2.json()).then(_0x5e3b2d => {
+  await fetch("https://wormatefriendsglobal.com/api/users.php").then(_0xfc78b2 => _0xfc78b2.json()).then(_0x5e3b2d => {
     if (_0x5e3b2d.success) {
       let _0x1075d3 = _0x5e3b2d.Users;
       clientes.clientesActivos = _0x1075d3.filter(_0x1a0b99 => {
@@ -199,7 +199,7 @@ async function loadUsers() {
   });
 }
 async function loadServers() {
-  await fetch("https://milat2.com/api/server.php").then(_0x38166b => _0x38166b.json()).then(_0x408563 => {
+  await fetch("https://wormatefriendsglobal.com/api/server.php").then(_0x38166b => _0x38166b.json()).then(_0x408563 => {
     if (_0x408563.success) {
       let _0x4058f2 = _0x408563.servers;
       servers.Api_listServer = _0x4058f2.filter(_0x3d9c57 => {
@@ -342,7 +342,7 @@ ctx.containerCountInfo.addChild(ctx.label_kill);
 ctx.containerCountInfo.addChild(ctx.value1_kill);
 ctx.containerCountInfo.addChild(ctx.value2_kill);
 ctx.imgServerbase = PIXI.Texture.fromImage("https://i.imgur.com/EkbSd65.png");
-ctx.borderurl = PIXI.Texture.fromImage("i.imgur.com/bKAe6W9.png");
+ctx.borderurl = PIXI.Texture.fromImage("i.imgur.com/nwJih2e.png");
 ctx.onclickServer = PIXI.Texture.fromImage("https://i.imgur.com/EkbSd65.png");
 ctx.containerImgS = new PIXI.Sprite(ctx.imgServerbase);
 ctx.containerImgS.anchor.set(0.5);
@@ -1424,7 +1424,7 @@ window.addEventListener("load", function () {
             _0x2de575(_0x293f0c, _0x359ece[_0x293f0c]);
           }
         })(_0x5351bf.textureDict, function (_0x1d1f11, _0x54374d) {
-          var _0x4c982b = "https://milat2.com" + _0x54374d.relativePath;
+          var _0x4c982b = "https://wormatefriendsglobal.com" + _0x54374d.relativePath;
           if (!_0x54374d.custom) {
             _0x4c982b = _0x40beaf + _0x54374d.relativePath;
           }
@@ -2182,7 +2182,7 @@ window.addEventListener("load", function () {
       _0x3043da.prototype.Se = function (_0x4b715f) {
         _0x48f7d4('count', _0x4b715f);
         if (_0x4b715f) {
-          var _0x11045f = new Audio('https://milat2.com/video/headshot_sound_effect.mp3');
+          var _0x11045f = new Audio('https://wormatefriendsglobal.com/video/headshot_sound_effect.mp3');
           _0x11045f.play();
           var _0x1776d9 = _0x1890c1(window.I18N_MESSAGES["index.game.floating.headshot"], true);
           this.addChild(_0x1776d9);
@@ -4022,7 +4022,7 @@ window.addEventListener("load", function () {
             if (_0xf36e06 && _0xf36e06.code === 0x5cd && _0xf36e06.error === "expired_token") {
               _0x368819++;
               console.log("auto login attempt:", _0x368819);
-              $("#login-view").html("<h2>Auto Login Google Wormate Friends Turkey : " + _0x368819 + '</h2>');
+              $("#login-view").html("<h2>Auto Login Google Wormate Friends Global : " + _0x368819 + '</h2>');
               _0x546a30();
             } else {
               _0x394d6d(_0xf36e06);
@@ -4935,7 +4935,7 @@ window.addEventListener("load", function () {
     }();
     var _0x400e44 = function () {
       function _0x2e06f0(_0x22a9cb, _0x2ef3c1, _0xe9a153, _0x505b5c, _0x547bf8, _0x1d3cf3) {
-        var _0x1e2577 = "<div><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0\" y=\"0\" viewBox=\"0 0 456 456\" xml:space=\"preserve\"><rect x=\"0\" y=\"0\" width=\"456\" height=\"456\" fill=\"#F7941D\"/><path d=\"M242.7 456V279.7h-59.3v-71.9h59.3v-60.4c0-43.9 35.6-79.5 79.5-79.5h62v64.6h-44.4c-13.9 0-25.3 11.3-25.3 25.3v50h68.5l-9.5 71.9h-59.1V456z\" fill=\"#fff\"/></svg><span>" + _0x22a9cb + "</span></div>";
+        var _0x1e2577 = "<div><svg xmlns=\"https://www.tiktok.com/@hayalet69692\" version=\"1.1\" x=\"0\" y=\"0\" viewBox=\"0 0 456 456\" xml:space=\"preserve\"><rect x=\"0\" y=\"0\" width=\"456\" height=\"456\" fill=\"#F7941D\"/><path d=\"M242.7 456V279.7h-59.3v-71.9h59.3v-60.4c0-43.9 35.6-79.5 79.5-79.5h62v64.6h-44.4c-13.9 0-25.3 11.3-25.3 25.3v50h68.5l-9.5 71.9h-59.1V456z\" fill=\"#fff\"/></svg><span>" + _0x22a9cb + "</span></div>";
         var _0x4c6a5a = $(_0x1e2577);
         _0x4c6a5a.click(function () {
           if ("undefined" != typeof FB && undefined !== FB.ui) {
@@ -6278,7 +6278,7 @@ window.addEventListener("load", function () {
           let _0x11eb4c = this.nl.name[_0x3c63e4] ? this.nl.name[_0x3c63e4] : this.nl.name.en ? this.nl.name.en : this.nl.name.x;
           if (this.nl.img) {
             var _0x1995c2 = "<img src=\"";
-            _0x1995c2 = _0x1995c2 + "https://milat2.com" + "/images/paths/" + this.nl.img;
+            _0x1995c2 = _0x1995c2 + "https://wormatefriendsglobal.com" + "/images/paths/" + this.nl.img;
             _0x11eb4c = _0x1995c2 = _0x1995c2 + "\" height=\"43\" width=\"220\" />";
           }
           return _0x11eb4c;
@@ -6964,7 +6964,7 @@ window.addEventListener("load", function () {
     _0xdc115f = _0x403fc1();
     _0xdc115f.v();
     if (PhoneChecked()) {
-      _0x29122f("https://milat2.com/js/joy.min.js", 'mobileconfig', function () {
+      _0x29122f("https://wormatefriendsglobal.com/js/joy.min.js", 'mobileconfig', function () {
         _0xda782f();
       });
     }
@@ -7017,9 +7017,9 @@ window.addEventListener("load", function () {
       }
     };
     var _0x232855 = function () {
-      $('#mm-event-text').replaceWith("<div class=\"text-vnxx\"><img src=\"https://milat2.com/css/img/hallo.gif\"/><a href=\"https://www.facebook.com/wormatefriendsturkey\">New extension New Update</a></div>");
-      $("#mm-store").after("<div id=\"mm-store\" style=\"float: right;position: relative;background: #fff0;width:30px;\">\n            <div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n            \n        <button style=\"margin-top: -10px;\" onclick=\"openPopup()\"><img style=\"height: 40px;\"src=\"https://i.imgur.com/bKAe6W9.png\"/></button>\n        <div id=\"popup\" class=\"popup\">\n        <div class=\"phdr1\">Wormate Friends Settings</div>\n        <button class=\"close-button\" onclick=\"closePopup()\">Close</button>\n        \n                    <div id=\"kich-hoat\">\n                \n           <center><input type=\"text\" value=\"\" style=\"text-align: center;border-radius: 4px;font-size: 20px;padding: 0 6px;background-color: #fff;color: #806102;display: block;box-sizing: border-box;-webkit-appearance: none;outline: 0;border: solid 2px #ff8d00;margin-left: -80px;    width: 50%;margin-top: 8px;\"/></center>\n                \n                <button style=\"width: 80px; height: 28px;float: right; margin-top: -28px;margin-right: 105px;\" onclick=\"navigator.clipboard.writeText('').then(()=> alert('You ID  copiado! copied!'));\">COPY</button>\n                </div>   \n                \n                \n                    <div class=\"settings-lineZoom\">\n                    <span class=\"settings-labelZoom\">Ability EatingSpeed</span>\n                    <input class=\"settings-switchZoom\" id=\"settings-Abilityzoom-switch\" type=\"checkbox\"/>\n                    <label for=\"settings-Abilityzoom-switch\"></label>\n                    </div>\n                    \n                    <div class=\"settings-lineZoom\">\n                    <span class=\"settings-labelZoom\">MODO STREAMER</span>\n                    <input class=\"settings-switchZoom\" id=\"settings-stremingmode-switch\" type=\"checkbox\"/>\n                    <label for=\"settings-stremingmode-switch\"></label>\n                    </div>\n                    \n                    \n                    <div class=\"spancursor\">Select Cursor</div>\n                    <div class=\"cursor-container\"></div>\n                    <div class=\"spancursor\">Select Background</div>\n                    <div class=\"background-container\"></div>\n                    \n                    \n                    <div class=\"list2\">Keys <a href=\"/\">Q</a> : Turn Around (Quay Otomatik  DÃ¶nÃ¼ÅŸ)</div>\n                    <div class=\"list2\">Keys <a href=\"/\">R </a> : Quick Revive (Otomatik R TuÅŸu Reset)</div>\n                    \n                    <div class=\"list2\">Note : This setting is only for activated members . Thank you !</div>\n                    <div class=\"list2\">GÃ¼ncel bilgi  : Eklenti Ã¼cretsiz kullanÄ±m iÃ§erisinde kÃ¼fÃ¼rlÃ¼ isimler almak hesabÄ±nÄ±zÄ±n aktivasyonunu devre dÄ±ÅŸÄ± bÄ±rakÄ±caktÄ±r. Desen ve Server ekletmek iÃ§in iletiÅŸime aktivasyon kÄ±smÄ±ndan geÃ§ebilirsiniz .    </div>\n                    \n                    <center><div class=\"hg\"><a target=\"_blank\" href=\"https://wa.me/905544655080/\">Activated (Aktivasyon)</a></div></center>\n\n           \n        </div>");
-      $("#loa831pibur0w4gv").replaceWith("<div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n                <div class=\"label\" id=\"titleSetings\">Notification (Duyuru)</div>\n                \n                <div class=\"list1\">  GÃ¼ncelleme : 28.04.2024   </div>\n                <div class=\"list1\"> LÃ¼tfen Ã¶ncelikle Ä±d kopyalayÄ±p aktif et kÄ±smÄ±na basÄ±nÄ±z aktif ettiriniz </div>\n                <div class=\"list1\">     </div><hr>\n                \n                <div class=\"list1\">      </div>\n                <div class=\"list1\">    </div>\n                <div class=\"list1\">     </div>\n                <hr> \n                <input type=\"text\" value=\"\" style=\"width: 236px;height: 23px;text-align: center;border-radius: 4px;font-size: 17px;padding: 0 6px;background-color: #fff;color: #806102;display: block;box-sizing: border-box;-webkit-appearance: none;outline: 0;border-width: 0;\">\n        <button style=\"height: 25px;float: right;margin-top: -24px;\" onclick=\"navigator.clipboard.writeText('').then(()=> alert('You ID  baÅŸarÄ±Ä±!! KopyalandÄ±.!'));\">Kopyala</button>\n                <center><div class=\"hg\"><a target=\"_blank\" href=\"https://wa.me/905544655080/\">Activated (Aktif Et)</a></div></center>\n             </div>\n             ");
+      $('#mm-event-text').replaceWith("<div class=\"text-vnxx\"><img src=\"https://wormatefriendsglobal.com/images/hiep_img/logo.png\"/><a href=\"https://www.wormatefriendsglobal.com/\">Wormate  Friends Global</a></div>");
+      $("#mm-store").after("<div id=\"mm-store\" style=\"float: right;position: relative;background: #fff0;width:-30px;\">\n            <div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n            \n        <button style=\"margin-top: 0px;\" onclick=\"openPopup()\"><img style=\"height: 40px;\"src=\"https://i.imgur.com/nwJih2e.png\"/></button>\n        <div id=\"popup\" class=\"popup\">\n        <div class=\"phdr1\">  Settings</div>\n        <button class=\"close-button\" onclick=\"closePopup()\">Close</button>\n        \n                    <div id=\"kich-hoat\">\n                \n           <center><input type=\"text\" value=\"\" style=\"text-align: center;border-radius: 4px;font-size: 20px;padding: 0 6px;background-color: #fff;color: #806102;display: block;box-sizing: border-box;-webkit-appearance: none;outline: 0;border: solid 2px #ff8d00;margin-left: -80px;    width: 50%;margin-top: 8px;\"/></center>\n                \n                <button style=\"width: 80px; height: 28px;float: right; margin-top: -28px;margin-right: 105px;\" onclick=\"navigator.clipboard.writeText('').then(()=> alert('You ID  copiado! copied!'));\">COPY</button>\n                </div>   \n                \n                \n                    <div class=\"settings-lineZoom\">\n                    <span class=\"settings-labelZoom\"> Eating Speed</span>\n                    <input class=\"settings-switchZoom\" id=\"settings-Abilityzoom-switch\" type=\"checkbox\"/>\n                    <label for=\"settings-Abilityzoom-switch\"></label>\n                    </div><div class=\"settings-lineZoom\">\n                    <span class=\"settings-labelZoom\"> Top 3</span>\n                    <input class=\"settings-switchZoom\" id=\"settings-top3sv-switch\" type=\"checkbox\"/>\n                    <label for=\"settings-top3sv-switch\"></label>\n                    </div>\n                    \n                    <div class=\"settings-lineZoom\">\n                    <span class=\"settings-labelZoom\">Streamer Mode</span>\n                    <input class=\"settings-switchZoom\" id=\"settings-stremingmode-switch\" type=\"checkbox\"/>\n                    <label for=\"settings-stremingmode-switch\"></label>\n                    </div>\n                    \n                    \n                    <div class=\"spancursor\">Select Cursor</div>\n                    <div class=\"cursor-container\"></div>\n                    <div id=\"bgtext\" class=\"bgtext\">Select Background</div>\n                    <div class=\"background-container\"></div></center>\n\n           \n        </div>");
+      $("#loa831pibur0w4gv").replaceWith("<div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n                <div class=\"label\" id=\"titleSetings\">Notification </div>\n                \n                <div class=\"list1\">  :   / </div>\n                <div class=\"list1\"> Aktivasyon yaptÄ±rmanÄ±z gerekiyor. </div>\n                <div class=\"list1\">     </div><hr>\n                \n                <div class=\"list1\">      </div>\n                <div class=\"list1\">    </div>\n                <div class=\"list1\">     </div>\n                <hr> \n                <input type=\"text\" value=\"\" style=\"width: 236px;height: 23px;text-align: center;border-radius: 4px;font-size: 17px;padding: 0 6px;background-color: #fff;color: #806102;display: block;box-sizing: border-box;-webkit-appearance: none;outline: 0;border-width: 0;\">\n        <button style=\"height: 25px;float: right;margin-top: -24px;\" onclick=\"navigator.clipboard.writeText('').then(()=> alert('You ID  copiado! copied!'));\">COPY</button>\n                <center><div class=\"hg\"><a target=\"_blank\" href=\"https://wormatefriendsglobal.com/\">Aktivasyon </a></div></center>\n             </div>\n             ");
       var _0x5464eb = document.getElementById('settingBtn');
       var _0x16e49b = document.getElementById("settingContent");
       _0x5464eb.addEventListener("click", function () {
@@ -7049,9 +7049,9 @@ window.addEventListener("load", function () {
         theoKzObjects.FoodShadow = $(this).val();
         localStorage.ComidaShadow = theoKzObjects.FoodShadow;
       });
-      $("#ltmolilci1iurq1i").replaceWith("\n                <div id=\"toantrang-quangcao\">\n                \n                <div class=\"quangcao-left1\"><a href=\"https://www.tiktok.com/@l._.e._.o_.n\"><div class=\"ten-khach-hang\">LEON  GAMÄ°NG</div><img src=\"https://milat2.com/images/hiep_img/leoongamingg.png\"></a></div>\n                \n                <div class=\"quangcao-left2\"><a href=\"https://discord.gg/tcteam/\"><div class=\"ten-khach-hang\">T.C TEAM  AÄ°LESÄ°</div><img src=\"https://milat2.com/images/hiep_img/tcunallucarr.png\"></a></div> \n                \n                <div class=\"quangcao-left3\"><a href=\"https://www.tiktok.com/@arzu.gaming/\"><div class=\"ten-khach-hang\">ARZU GAMÄ°NG</div><img src=\"https://milat2.com/images/hiep_img/arzugamingglist.png\"></a></div> \n                \n                <div class=\"quangcao-left4\"><a href=\"https://www.instagram.com/kentavize/\"><div class=\"ten-khach-hang\">KENT AVÄ°ZE</div><img src=\"https://milat2.com/images/hiep_img/kentavize.png\"></a></div>  \n                \n                <div class=\"quangcao-left5\"><a href=\"https://www.tiktok.com/@kamikazegaming34/\"><div class=\"ten-khach-hang\"> KAMÄ°KAZE </div><img src=\"https://milat2.com/images/hiep_img/ucak3434sonreklam.png\"></a></div>  \n                </div>");
-      $('#mm-advice-cont').html("<input type=\"button\" style=\"float: left;height: 35.5px;color: #001fff;font-size:18px;border:solid 1px #2196f300;font-weight:600;background:#e6ae50;width: 49%;font-family: vuonghiep;\" class=\"fullscreen_button\" value=\"FULLSCREEN\"/><div class=\"nhac\"><a href=\"https://wa.me/905544655080\">Contact (Aktivasyon)</div>");
-      $(".mm-merchant-cont").append("<div style='float: left;'><a href='https://www.instagram.com/ozdilekyapimarket/'><img style='width:97%' src='https://i.imgur.com/nBkhdv4.jpeg'/><a/></div><div style='float: left;'><a href='boÅŸreklam'><img style='width: 97%;' src='https://i.imgur.com/Om6fwgf.png'/><a/></div>");
+      $("#ltmolilci1iurq1i").replaceWith("\n                <div id=\"toantrang-quangcao\">\n                \n                <div class=\"quangcao-left1\"><a href=\"https://www.tiktok.com/@hayalet69692\"><div class=\"ten-khach-hang\">HAYALET  69</div><img src=\"https://wormatefriendsglobal.com/images/hiep_img/hayalet.png\"></a></div>\n                \n                <div class=\"quangcao-left2\"><a href=\"\"><div class=\"ten-khach-hang\">REKLAM ALANI âœ </div><img src=\"https://wormatefriendsglobal.com/images/hiep_img/bosreklam.gif\"></a></div> \n                \n                <div class=\"quangcao-left3\"><a href=\"https://www.tiktok.com/ayyildiz_ded/\"><div class=\"ten-khach-hang\"> REKLAM ALANI</div><img src=\"https://wormatefriendsglobal.com/images/hiep_img/bosreklam.gif\"></a></div> \n                \n                <div class=\"quangcao-left4\"><a href=\"https://www.tiktok.com/@matadorr_5\"><div class=\"ten-khach-hang\">REKLAM ALANI</div><img src=\"https://wormatefriendsglobal.com/images/hiep_img/bosreklam.gif\"></a></div>  \n                \n                <div class=\"quangcao-left5\"><a href=\"https://www.tiktok.com/@hayalet69692\"><div class=\"ten-khach-hang\">REKLAM ALANI âœ</div><img src=\"https://wormatefriendsglobal.com/images/hiep_img/bosreklam.gif\"></a></div>  \n                </div>");
+      $('#mm-advice-cont').html("<input type=\"button\" style=\"float: left;height: 35.5px;color: #000;font-size:18px;border-radius: 5px ;font-weight:600;background:#ffffff;width: 49%;font-family: vuonghiep;\" class=\"fullscreen_button\" value=\"F. SCREEN\"/><div class=\"nhac\"><a href=\"https://wormatefriendsglobal.com/\">Contact (Aktivasyon)</div>");
+      $(".mm-merchant-cont").append("<div style='float: left;'><a href='https://www.tiktok.com/@ayyildiz_ded'><img style='width:97%' src='https://wormatefriendsglobal.com/images/hiep_img/r2.gif'/><a/></div><div style='float: left;'><a href=''><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r9.gif'/><a/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@sinan_gaming_67'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/mikaildisreklam.png'/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@matadorr_5'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@hayalet69692'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@hayalet69692'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@ayyildiz_ded'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@guven_43_sima'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div><div style='float: left;'><a href=''><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@ayyildiz_ded'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@hayalet69692'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div><div style='float: left;'><a href='https://www.tiktok.com/@ayyildiz_ded'><img style='width: 97%;' src='https://wormatefriendsglobal.com/images/hiep_img/r1.png'/><a/></div>");
       $(document).ready(function () {
         $(".fullscreen_button").on('click', function () {
           if (document.fullScreenElement && null !== document.fullScreenElement || !document.mozFullScreen && !document.webkitIsFullScreen) {
@@ -7071,11 +7071,11 @@ window.addEventListener("load", function () {
           }
         });
       });
-      $("#mm-store").after("\n            <div id=\"mm-store\" style=\"float: right;position: relative;background: -webkit-linear-gradient(right, #00BCD4 , #3F51B5);width:40px; margin-right: 25px; \" onclick=\"navigator.clipboard.writeText('').then(()=> alert('You ID  copiado! copied!'));\"> Your Id</div>");
-      $("#background-canvas").replaceWith("<canvas id=\"background-canvas\" style=\"background-image: url(https://i.imgur.com/2iNGocv.png);background-repeat: no-repeat;background-size: cover;}\"></canvas>");
+      $("#mm-store").after("\n            <div id=\"mm-store\" style=\"float: right;position: relative; width:40px; margin-right: 25px; \" onclick=\"navigator.clipboard.writeText('').then(()=> alert('You ID  copiado! copied!'));\"> Copy ID</Div>");
+      $("#background-canvas").replaceWith("<canvas id=\"background-canvas\" style=\"background-image: url(https://wormatefriendsglobal.com/images/hiep_img/arkfon.png);background-repeat: no-repeat;background-size: cover;}\"></canvas>");
       $(".mm-merchant").replaceWith('');
-      $("#markup-footer").replaceWith("\n            <footer id=\"markup-footer\">\n            <div class=\"lang-menu\"><button class=\"lang-button\">Diller </button>\n            <div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">English</a>\n<a hreflang=\"uk\" href=\"/uk/\">?Â£?ÂºÃ‘â‚¬?Â°Ã‘â€”?Â½Ã‘ÂÃ‘Å’?Âº?Â°</a>\n<a hreflang=\"de\" href=\"/de/\">Deutsch</a>\n<a hreflang=\"fr\" href=\"/fr/\">FranÃƒÂ§ais</a>\n<a hreflang=\"es\" href=\"/es/\">EspaÃƒÂ±ol</a>\n</div></div>\n            <a class=\"link\" hreflang=\"en\" href=\"/\">Ana Sayfa</a>\n            <a class=\"link\" hreflang=\"en\" href=\"/contact\">Wormate.io team TC TeamÂ© 2023</a>\n            \n            <a style=\"color: #00ff21;\">WormateFriendsTurkey.com</a>\n            \n            </footer>");
-      $(".description-text").replaceWith("\n                   <div style=\";padding: 0px;margin: 0;height:338px\" class=\"description-text\">\n                    <div id=\"title\">Wormate Friends Turkey</div>\n                    <ul style=\"margin-top: 5px;\" class=\"ui-tabs-nav\">\n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active\" style=\"margin: -5px\">\n                        <a>\n                        <span class=\"flag br\" value=\"https://i.imgur.com/pReVs6K.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive1\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag mx\"  value=\"https://i.imgur.com/YSLUmBO.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive2\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag us\" value=\"https://i.imgur.com/Jb2FF0y.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive3\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag ca\" value=\"https://i.imgur.com/c90q4Qs.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive4\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag de\" value=\"https://i.imgur.com/VgCH8iy.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive5\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag fr\" value=\"https://i.imgur.com/QuEjBr0.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive6\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag sg\" value=\"https://i.imgur.com/FviIPCg.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive7\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag jp\" value=\"https://i.imgur.com/P2rYk1k.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive8\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag au\" value=\"https://i.imgur.com/DlVbD1Y.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive9\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag gb\" value=\"https://i.imgur.com/8pQY6RW.png\"></span>\n                        </a>\n                    </li>\n                    \n                    </ul>\n                    \n                    <div class=\"gachngang\"></div>\n                    \n                    <div class=\"servers-container\">\n                    <div class=\"servers-peru\"></div>\n                    <div class=\"servers-mexico\" style=\"display: none;\"></div>\n                    <div class=\"servers-eeuu\" style=\"display: none;\"></div>\n                    <div class=\"servers-canada\" style=\"display: none;\"></div>\n                    <div class=\"servers-germania\" style=\"display: none;\"></div>\n                    <div class=\"servers-francia\" style=\"display: none;\"></div>\n                    <div class=\"servers-singapur\" style=\"display: none;\"></div>\n                    <div class=\"servers-japon\" style=\"display: none;\"></div>\n                    <div class=\"servers-australia\" style=\"display: none;\"></div>\n                    <div class=\"servers-granbretana\" style=\"display: none;\"></div>\n                    \n                    \n                    \n                    </div>\n                    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js\"></script>\n                    \n                    \n                    ");
+      $("#markup-footer").replaceWith("\n            <footer id=\"markup-footer\">\n            <div class=\"lang-menu\"><button class=\"lang-button\">Language </button>\n            <div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">English</a>\n<a hreflang=\"uk\" href=\"/uk/\"></a>\n<a hreflang=\"de\" href=\"/de/\">Deutsch</a>\n<a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a>\n<a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a>\n</div></div>\n            <a class=\"link\" hreflang=\"en\" href=\"/\">Home</a>\n            <a class=\"link\" hreflang=\"en\" href=\"https://wormatefriendsglobal.com\">  Wormate Friends GlobalÂ©</a>\n            \n            <a style=\"color: #00ff21;\"></a>\n            \n            </footer>");
+      $(".description-text").replaceWith("\n                   <div style=\";padding: 0px;margin: 0;height:338px\" class=\"description-text\">\n                    <div id=\"title\">Wormate Friends Global</div>\n                    <ul style=\"margin-top: 5px;\" class=\"ui-tabs-nav\">\n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active\" style=\"margin: -5px\">\n                        <a>\n                        <span class=\"flag br\" value=\"https://i.imgur.com/pReVs6K.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive1\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag mx\"  value=\"https://i.imgur.com/YSLUmBO.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive2\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag us\" value=\"https://i.imgur.com/Jb2FF0y.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive3\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag ca\" value=\"https://i.imgur.com/c90q4Qs.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive4\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag de\" value=\"https://i.imgur.com/cU5uwia.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive5\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag fr\" value=\"https://i.imgur.com/QuEjBr0.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive6\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag sg\" value=\"https://i.imgur.com/FviIPCg.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive7\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag jp\" value=\"https://i.imgur.com/P2rYk1k.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive8\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag au\" value=\"https://i.imgur.com/DlVbD1Y.png\"></span>\n                        </a>\n                    </li>\n    \n                    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive9\" style=\"margin: -5px\">\n                        <a>\n                            <span class=\"flag gb\" value=\"https://i.imgur.com/8pQY6RW.png\"></span>\n                        </a>\n                    </li>\n                    \n                    </ul>\n                    \n                    <div class=\"gachngang\"></div>\n                    \n                    <div class=\"servers-container\">\n                    <div class=\"servers-peru\"></div>\n                    <div class=\"servers-mexico\" style=\"display: none;\"></div>\n                    <div class=\"servers-eeuu\" style=\"display: none;\"></div>\n                    <div class=\"servers-canada\" style=\"display: none;\"></div>\n                    <div class=\"servers-germania\" style=\"display: none;\"></div>\n                    <div class=\"servers-francia\" style=\"display: none;\"></div>\n                    <div class=\"servers-singapur\" style=\"display: none;\"></div>\n                    <div class=\"servers-japon\" style=\"display: none;\"></div>\n                    <div class=\"servers-australia\" style=\"display: none;\"></div>\n                    <div class=\"servers-granbretana\" style=\"display: none;\"></div>\n                    \n                    \n                    \n                    </div>\n                    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js\"></script>\n                    \n                    \n                    ");
       $('.ui-tab').on("click", account);
       $(".flag").click(function () {
         let _0x2b50a9 = $(this).attr("value");
@@ -7234,7 +7234,7 @@ window.addEventListener("load", function () {
     var _0x5d8383 = {};
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (_0x4ff229) {
       _0x5d8383 = _0x4ff229;
-      fetch("https://milat2.com/api/skins.php").then(_0x395f54 => _0x395f54.json()).then(_0x4d2a43 => {
+      fetch("https://wormatefriendsglobal.com/api/skins.php").then(_0x395f54 => _0x395f54.json()).then(_0x4d2a43 => {
         theoKzObjects.visibleSkin = _0x4d2a43.visibleSkin;
         delete _0x4d2a43.visibleSkin;
         for (let _0x4c8ccb in _0x4d2a43) if ("propertyList" !== _0x4c8ccb) {
@@ -7256,8 +7256,8 @@ window.addEventListener("load", function () {
       });
     });
   };
-  $('#background-canvas').replaceWith("<canvas id=\"background-canvas\" style=\"background-image: url(https://i.imgur.com/2iNGocv.png);background-repeat: no-repeat;background-size: cover;}\"></canvas>");
-  $("#popup-login-gg").html("<div class=\"settings-line\" id=\"popup-login-gg1\">Login via Google 1</div>");
+  $('#background-canvas').replaceWith("<canvas id=\"background-canvas\" style=\"background-image: url(https://wormatefriendsglobal.com/images/hiep_img/arkfon.png/);background-repeat: no-repeat;background-size: cover;}\"></canvas>");
+  $("#popup-login-gg").html("<div class=\"settings-line\" id=\"popup-login-gg1\">Login via Google </div>");
 });
 function openPopup() {
   var _0x54681e = document.getElementById("popup");
@@ -7566,20 +7566,101 @@ eval(function (p, a, c, k, e, d) {
   }
   return p;
 }("q(Q()){J c={u:()=>3=1.0,e:()=>3>0.5?3+=0.5:3*=2,p:()=>3>0.5?3-=0.5:3/=2};P f=$('<6 L=\"4-8-S\"><9>#4-8-S {C: 1m;z-1l: W;n: 1k%;1j: 1i;}#4-8-j {C: 1h;1g: 0 1f;n: 1e;a: l;l-1a: 1c;B-I: 1b-13;H-K: d;} #4-8-j > 6 { F: E;19-r: #D;r: #o;v: T 12 #o;v-18: 10;n: m;Z: m;17-16: X;a: l;B-I: d;H-K: d;}</9><6 L=\"4-8-j\" 9=\"\"><6 h=\"4-7-M\"> - </6><6 h=\"4-7-O\"> = </6><6 h=\"4-7-e\"> + </6></6></6>').1d('#1p-1w');f.x('.4-7-e').k(c.p).N().x('.4-7-M').k(c.e).N().x('.4-7-O').k(c.u)}q(Q()){J c={u:()=>3=1.0,e:()=>3>0.5?3+=0.5:3*=2,p:()=>3>0.5?3-=0.5:3/=2};P f=$('#4-8-j');y g=$('<6 h=\"4-7-1z\">1u</6>');g.1o({F:'E',1y:'#D',r:'#o',v:'T 12 #o',1E:'10',n:'m',Z:'m',1q:'X',a:'l',1H:'d',1r:'d',});g.k(w(){U.11('1s 1t tÄ±1vÄ±!');y b=1x.1A('b');q(b.9.a==='V'){b.9.a='1B'}1C{b.9.a='V'}});f.1D(g)}w G(A){1F(w(){U.11('Y iÅŸ1G 1nÄ±. Y sÃ¼14: '+A+' 15')},A)}y R=W;G(R);", 62, 106, '|||TRZM|wm||div|zoom|mobile|style|display|settingContent|fZoom|center|in|trzBtns|newButton|class||buttons|click|flex|36px|width|8ab021|ot|if|color|||_n|border|function|find|var||pingTime|justify|position|000|pointer|cursor|simulatePing|align|content|const|items|id|out|end|normal|let|RechekingPhone|pingTimeInMilliseconds|box|1px|console|block|1000|bold|Ping|height|50px|log|solid|between|resi|ms|weight|font|radius|background|wrap|space|nowrap|prependTo|120px|auto|margin|relative|10px|top|100|index|fixed|tamamland|css|game|fontWeight|alignItems|Yeni|buton|Ayar|kland|view|document|backgroundColor|new|getElementById|none|else|append|borderRadius|setInterval|lemi|justifyContent'.split('|'), 0, {}));
+window.addEventListener('load', () => {
+  const container = document.querySelector('#mm-line-bottom');
+  const contents = document.querySelectorAll('.mm-merchant-cont');
 
-/*zoom by yildo.com*/
-// "z" tuÅŸuna basÄ±ldÄ±ÄŸÄ±nda zoom iÅŸlemini durdurma fonksiyonu
+  // Mouse olaylarÄ± iÃ§in event listener ekleme
+  container.addEventListener('mouseenter', () => {
+    pauseAnimation(contents);
+  });
+  container.addEventListener('mouseleave', () => {
+    startAnimation(contents);
+  });
+});
 
-function stopZoom(event) {
-  if (event.key === 'z') {
-    window.multiplier = 0.625; // BaÅŸlangÄ±Ã§ zoom seviyesine geri dÃ¶n
-
-    window.changedNf();
-  }
+// Animasyonu durdur
+function pauseAnimation(elements) {
+  elements.forEach(element => {
+    element.style.animationPlayState = 'paused';
+  });
 }
 
-// TuÅŸ olayÄ±nÄ± dinleyiciye baÄŸlama
+// Animasyonu baÅŸlat
+function startAnimation(elements) {
+  elements.forEach(element => {
+    element.style.animationPlayState = 'running';
+  });
+}
+window.multiplier = 0.625;
+async function fetchBadWords() {
+  try {
+    const _0x57690d = await fetch("https://wormatefriendsglobal.com/kufur.txt");
+    if (!_0x57690d.ok) {
+      throw new Error("Network response was not ok");
+    }
+    const _0x385a26 = await _0x57690d.text();
+    console.log("Fetched bad words:", _0x385a26);
+    return _0x385a26.split("\n").map(_0x34af5d => _0x34af5d.trim().toLowerCase()).filter(_0x2bb2c3 => _0x2bb2c3 !== '');
+  } catch (_0x4d6d31) {
+    console.error("Fetching bad words failed:", _0x4d6d31);
+    return [];
+  }
+}
+async function init() {
+  const _0x119a24 = await fetchBadWords();
+  if (_0x119a24.length === 0x0) {
+    console.warn("No bad words loaded");
+  }
+  document.getElementById("mm-params-nickname").addEventListener("input", function () {
+    const _0x36879e = this.value.toLowerCase();
+    let _0x38536f = false;
+    for (let _0x2e4e3d = 0x0; _0x2e4e3d < _0x119a24.length; _0x2e4e3d++) {
+      const _0x4d5ac8 = _0x119a24[_0x2e4e3d];
+      if (_0x36879e.includes(_0x4d5ac8)) {
+        _0x38536f = true;
+        break;
+      }
+    }
+    if (_0x38536f) {
+      this.value = 'kÃ¼fÃ¼rlÃ¼isim';
+    }
+  });
+}
+init();
+document.addEventListener('DOMContentLoaded', event => {
+  function showTop3() {
+    // TÃ¼m Ã¶ÄŸeleri iÃ§eren kapsayÄ±cÄ±yÄ± bul
+    const containers = document.querySelectorAll('#game-canvas');
+    containers.forEach(container => {
+      // KapsayÄ±cÄ± iÃ§inde "TOP 10 SERVER" baÅŸlÄ±ÄŸÄ±nÄ± bul
+      const scoreHeader = Array.from(container.querySelectorAll('div')).find(el => el.textContent.includes('TOP 10 SERVER'));
+      if (scoreHeader) {
+        // "TOP 10 SERVER" baÅŸlÄ±ÄŸÄ±ndan sonra gelen listeyi bul
+        const scoreList = scoreHeader.nextElementSibling;
+        if (scoreList) {
+          const listItems = scoreList.querySelectorAll('div'); // Liste elemanlarÄ±nÄ± seÃ§
+          listItems.forEach((item, index) => {
+            if (index >= 3) {
+              item.style.display = 'none'; // 3. sÄ±radan sonrasÄ±nÄ± gizle
+            }
+          });
+        }
+      }
+    });
+  }
 
-window.addEventListener('keydown', stopZoom);
+  showTop3();
+});
 
-/*zoom by yildo.com*/
+// SaÄŸ tÄ±k menÃ¼sÃ¼nÃ¼ engelleme
+document.addEventListener('contextmenu', function (event) {
+  event.preventDefault();
+});
+
+// KÄ±sayol tuÅŸlarÄ±nÄ± engelleme (Ã¶rneÄŸin: Ctrl+Shift+I)
+document.addEventListener('keydown', function (event) {
+  if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+    event.preventDefault();
+  }
+});
